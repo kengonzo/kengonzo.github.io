@@ -1,0 +1,21 @@
+<div class="gal">
+		<div class="thumbs">
+			<div ng-repeat="images in con.photos" class="{{images.Class}}" id="GalleryImg" ng-mouseover="con.galHoverOn(images.Class);" ng-mouseleave="con.galHoverOff(images.Class);" ng-click="con.setImage(images.Class + '.jpg', images.Class); con.mainShow();">
+				<p class="name">{{images.Class}}</p>
+				<p class="background"></p>
+				<img ng-src="{{con.fileDirectory + 'Images/Thumbnail/' + images.Class + '.jpg'}}" id="{{images.Class}}" class="galImg"/>
+			</div>
+		</div>
+		<div class="mainImage">
+			<div class="Controls">
+				<p class="back" ng-click="con.nextImage(-1, con.activeClass);"><</p>
+				<p class="next" ng-click="con.nextImage(1, con.activeClass);">></p>
+				<p class="exit" ng-click="con.exit();">x</p>
+			</div>
+			<img ng-src="{{con.fileDirectory + con.getImage()}}" id="Image" class="{{con.getClass()}}"/>
+		</div>
+</div>
+<div class="_50zD">
+	<h2>{{con.heading}}</h2>
+	<p>{{con.paragraph}}</p>
+</div>

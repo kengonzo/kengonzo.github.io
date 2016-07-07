@@ -1,0 +1,114 @@
+html, body{
+	margin: 0;
+	padding: 0;
+	background: grey;
+}
+p, a, h2{
+	margin: 0;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	text-decoration: none;
+}
+.galCont{
+	position: static;
+	display: inline-block;
+}
+.Gallery{
+	margin: 25px 5% 25px 5%;
+	position: static;
+	width: 90%;
+	float: left;
+	top: 0; bottom: 0; right: 0; left: 0;
+}
+.article{
+	width: 90%;
+	margin: 25px 5% 25px 5%;
+}
+#body{
+	display: inline-block
+}
+.gal{
+	width: 90%;
+	margin: 25px 5% 25px 5%;
+	position: relative;
+}
+.mainImage{
+	height: 500px;
+	width: 500px;
+	background: white;
+	border-radius: 0 0 5px 5px;
+	box-shadow: 1px 1px 100px black;
+	position: fixed;
+	margin: auto;
+	top: 10%; left: 0; right: 0; bottom: 0;
+	z-index: 2;
+	display: none;
+}
+.mainImage img{
+	max-height: 90%;
+	max-width: 90%;
+	position: absolute;
+	margin: auto;
+	top: 5%; right: 0; left: 0; bottom: 5%;
+}
+.mainImage .back, .next{
+	float:left;
+}
+.mainImage .exit{
+	float: right;
+	color: red;
+}
+.Controls{
+	margin-top: -10%;
+	background: white;
+	height: 10%;
+}
+.Controls p{
+	padding: 10px;
+}
+.Controls p:hover{
+	cursor: pointer;
+}
+.thumbs .name{
+	color: white;
+	position: absolute;
+	font-size: 20px;
+	height: 20px;
+	margin: auto;
+	top: 0; left: 0; bottom: 0; right: 0;
+	display: none;
+	z-index: 2;
+}
+.thumbs .background{
+	width: 100%;
+	background: black;
+	opacity: 0.5;
+	display: none;
+	position: absolute;
+	height: 100%;
+	z-index: 1;
+}
+#GalleryImg{
+	width: 20%;
+	position: relative;
+	text-align:center;
+	float: left;
+}
+.galImg{
+	width: 100%;
+	z-index: 0;
+}
+.GalleryImg:hover{
+	cursor: pointer;
+}
+._50zD{
+	width: 40%;
+	margin: 25px 5% 25px 5%;
+	color: #333333;
+	float: left;
+	background: white;
+    padding: 25px;
+}
+._50zD h2{
+	color: #ff9900;
+	margin-bottom: 5px;
+}

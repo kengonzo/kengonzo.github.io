@@ -1,0 +1,18 @@
+<div class="footer">
+<div>
+		<img src="Images/Icon2.png" class="FooterTop"/><p class="headerF">Cross Street Artist</p>
+		<div class="ContainerOptions">
+			<div ng-repeat="footer in con.footers" class="footerOp" style={{con.footersLength}}>
+				<p class="productHeader">{{footer.header}}</p>
+				</br>
+				</br>
+					<ul ng-repeat="slides in footer.slides" class="options">
+						<p>
+							{{slides.option}}
+						</p>
+					</ul>
+				<img ng-src="{{footer.icon}}" class="IconImg" type="image/png"/>
+			</div>
+		</div>
+</div>
+</div>

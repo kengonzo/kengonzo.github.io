@@ -1,0 +1,71 @@
+.Logo{
+	width: 15%;
+	padding: 10px 0 10px 0;
+	height: 45px;
+	background: #333333;
+	float: left;
+	z-index:3;
+}
+.HeaderTitle{
+	height: 45px;
+	border-radius: 50%;
+}
+#HeaderMenu{
+	height: 45px;
+	color: white;
+	margin: 0;
+	float: left;
+	position: relative;
+}
+#MenuOp{
+	width: 100%;
+	margin: 0;
+	float: left;
+	z-index: 1;
+}
+.Menu{
+	margin-bottom: 25px;
+	position: static;
+	height: 45px;
+	width: 85%;
+	float: right;
+	z-index:3;
+}
+.HeadM{
+	margin: 0;
+	height: 25px;
+	width: 100%;
+	position: absolute;
+	z-index: 2;
+	font-size: 100%;
+	text-align: center;
+	padding: 20px 0 20px 0;
+	background: #333333;
+	color: white;
+}
+#divSlides{
+	position: absolute;
+	width: 100%;
+}
+#divSlides a{
+	color: white;
+}
+#slides{
+	height: 25px;
+	z-index: 1;
+	text-align: center;
+	font-size: 15px;
+	padding: 15px 0 5px 0;
+	color: white;
+	background: #ff9900;
+	position: absolute;
+	width: 100%;
+}
+.HeadM:hover{
+	cursor: pointer;
+}
+#slides:hover{
+	cursor: pointer;
+	background: #333333;
+	color: white;
+}

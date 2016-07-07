@@ -1,0 +1,25 @@
+<html ng-app="store">
+<head>
+	<title>Oil Gallery - Cross Street Artist</title>
+	<script src="JS/angular.min.js" type="text/javascript"></script>
+	<script src="JS/app.js" type="text/javascript"></script>
+	<script src="JS/jquery.min.js" type="text/javascript"></script>
+	<link rel="icon" type="image/jpg" href="Images/Logo.png" size="32x32">
+	<script src="JS/script.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="CSS/style.css"/>
+	<link rel="stylesheet" href="CSS/Menu.css"/>
+	<link rel="stylesheet" href="CSS/Footer.css"/>
+</head>
+<body>
+<div ng-controller="Controller as con" ng-include="'HTML/Header.html'"></div>
+<section ng-controller="Oil as con">
+	<div ng-include="'HTML/Gallery.html'" id="body"></div>
+	<div id="secLast">
+		<div id="workingOn">
+			<img class="workingOn" src=""/>
+		</div>
+	</div>
+</section>
+<div ng-controller="Controller as con" ng-include="'HTML/footer.html'"></div>
+</body>
+</html>
