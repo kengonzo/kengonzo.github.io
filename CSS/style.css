@@ -112,3 +112,78 @@ p, a, h2{
 	color: #ff9900;
 	margin-bottom: 5px;
 }
+.content{
+	background: transparent;
+	width: 90%;
+	margin: 0 5%;
+}
+.m_content{
+	height: 200px;
+    float: left;
+    width: 30%;
+	margin: 0 1.5% 25px 1.5%;
+	border-radius: 4px;
+	text-align: center;
+	position: relative;
+}
+.m_content .title{
+	position: static;
+	margin: 25px 0 0 0;
+	font-size: 20px;
+}
+@keyframes out_mouse{
+	0%{
+		width: 75px;
+		background: white;
+		color: grey;
+		border: 1px solid white;
+	}
+	100%{
+		width: 50px;
+		background: transparent;
+	}
+}
+.onward{
+	border: 1px solid white;
+	padding: 20px;
+	width:  50px;
+	height: 20px;
+    margin: auto;
+    position: absolute;
+	animation: out_mouse 0.4s forwards;
+	left: 0; bottom: 45px; right: 0;
+}
+@keyframes moving_mouse {
+	0%{
+		background: transparent;
+	}
+	100%{
+		width: 75px;
+		background: white;
+		color: grey;
+		border: 1px solid white;
+	}
+}
+.onward:hover{
+	cursor: pointer;
+	animation: moving_mouse 0.4s forwards;
+}
+#Orange{
+	background: #3399ff;
+	color: white;
+}
+#White{
+	background: #ff8080;
+	color: white;
+}
+#Grey{
+	background: #ffdb4d;
+	color: grey;
+}
+#Orange .onward, #White .onward {
+	border: 1px solid white;
+}
+#Grey .onward{
+	border: 1px solid grey;
+}
+

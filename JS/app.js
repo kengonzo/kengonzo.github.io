@@ -149,16 +149,7 @@ var array = [{
 		header: "About",
 		Class: "Menu4",
 		Link:"",
-		hasLink: false,
-		slide: [{
-			Class: "1",
-			Link: "Blog.html",
-			option: "Blog"
-		},{
-			Class: "2",
-			Link: "",
-			option: "Contact"
-		}]
+		hasLink: true
 },{
 		header: "Commissions",
 		Class: "Menu5",
