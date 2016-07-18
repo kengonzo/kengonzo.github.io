@@ -155,7 +155,7 @@ var array = [{
 			Link: "Blog.html",
 			option: "Blog"
 		},{
-			Class: "1",
+			Class: "2",
 			Link: "",
 			option: "Contact"
 		}]
