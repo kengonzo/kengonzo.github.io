@@ -1,5 +1,5 @@
 var app = angular.module("store", []);
-//Main Controller
+//Gallery Controllers
 app.controller("Controller", function($http){
 	//Menu and Footer Stuff
 	//console.log(Directory.GetFiles("../Portfolio/Oil/Images/Fullsize/"));
@@ -96,6 +96,11 @@ var addingFunction = function(control){
 		$(id).children('p').fadeOut(100);
 	}
 }
+
+//Blog Controller
+app.controller("Blog", function(){
+	
+});
 //Menu Slides
 var array = [{
 		header: "Portfolio",
@@ -141,10 +146,19 @@ var array = [{
 		Class: "Menu3",
 		hasLink: true,
 	},{
-		header: "Contact",
+		header: "About",
 		Class: "Menu4",
 		Link:"",
-		hasLink: true,
+		hasLink: false,
+		slide: [{
+			Class: "1",
+			Link: "Blog.html",
+			option: "Blog"
+		},{
+			Class: "1",
+			Link: "",
+			option: "Contact"
+		}]
 },{
 		header: "Commissions",
 		Class: "Menu5",

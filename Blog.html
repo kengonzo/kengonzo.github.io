@@ -1,6 +1,6 @@
 <html ng-app="store">
 <head>
-	<title>Cross Street Artist</title>
+	<title>Oil Gallery - Cross Street Artist</title>
 	<script src="JS/angular.min.js" type="text/javascript"></script>
 	<script src="JS/app.js" type="text/javascript"></script>
 	<script src="JS/jquery.min.js" type="text/javascript"></script>
@@ -10,22 +10,11 @@
 	<link rel="stylesheet" href="CSS/Menu.css"/>
 	<link rel="stylesheet" href="CSS/Footer.css"/>
 </head>
-<body ng-controller="Controller as con">
-<div ng-include="'HTML/Header.html'"></div>
-<div class="galCont">
-	<img class="Gallery" src="Images/HomeImage.jpg"/>
+<body>
+<div ng-controller="Controller as con" ng-include="'HTML/Header.html'"></div>
+<div ng-controller="Blog as bg">
+
 </div>
-<div class="Content">
-	<div class="latest_work">
-	
-	</div>
-	<div class="update">
-	
-	</div>
-	<div class="Blog">
-	
-	</div>
-</div>
-<div ng-include="'HTML/footer.html'"></div>
+<div ng-controller="Controller as con" ng-include="'HTML/footer.html'"></div>
 </body>
 </html>
