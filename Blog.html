@@ -1,6 +1,6 @@
 <html ng-app="store">
 <head>
-	<title>Oil Gallery - Cross Street Artist</title>
+	<title>Blog - Cross Street Artist</title>
 	<script src="JS/angular.min.js" type="text/javascript"></script>
 	<script src="JS/app.js" type="text/javascript"></script>
 	<script src="JS/jquery.min.js" type="text/javascript"></script>
@@ -13,7 +13,24 @@
 <body>
 <div ng-controller="Controller as con" ng-include="'HTML/Header.html'"></div>
 <div ng-controller="Blog as bg">
-
+	<div class="Content">
+		<div class="latest_work">
+			<img src="Images/LatestImage.jpg" class="lat_img">
+			
+			<p class="aboutLT">
+				Brush- is an inspired painting I did from something I saw online. I've recently been getting into still lifes
+				and this is one of my favorite ones working on so far.
+			</p>
+		</div>
+		<div class="icons">
+			<img src=""/>
+			<img src=""/>
+			<img src=""/>
+		</div>
+		<div class="Blog">
+		
+		</div>
+	</div>
 </div>
 <div ng-controller="Controller as con" ng-include="'HTML/footer.html'"></div>
 </body>
