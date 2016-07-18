@@ -148,9 +148,8 @@ var array = [{
 	},{
 		header: "More",
 		Class: "Menu4",
-		Link:"",
 		hasLink: false,
-		slides: [{
+		slide: [{
 			Class: "1",
 			Link: "",
 			option: "About"
