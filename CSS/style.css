@@ -125,6 +125,7 @@ p, a, h2{
 	border-radius: 4px;
 	text-align: center;
 	position: relative;
+	color: white;
 }
 .m_content .title{
 	position: static;
@@ -150,6 +151,7 @@ p, a, h2{
 	height: 20px;
     margin: auto;
     position: absolute;
+	border: 1px solid white;
 	animation: out_mouse 0.4s forwards;
 	left: 0; bottom: 45px; right: 0;
 }
@@ -170,20 +172,11 @@ p, a, h2{
 }
 #Orange{
 	background: #3399ff;
-	color: white;
 }
 #White{
 	background: #ff8080;
-	color: white;
 }
 #Grey{
 	background: #ffdb4d;
-	color: grey;
-}
-#Orange .onward, #White .onward {
-	border: 1px solid white;
-}
-#Grey .onward{
-	border: 1px solid grey;
 }
 

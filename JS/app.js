@@ -146,10 +146,19 @@ var array = [{
 		Class: "Menu3",
 		hasLink: true,
 	},{
-		header: "About",
+		header: "More",
 		Class: "Menu4",
 		Link:"",
-		hasLink: true
+		hasLink: false,
+		slides: [{
+			Class: "1",
+			Link: "",
+			option: "About"
+		},{
+			Class: "2",
+			Link: "",
+			option: "Store"
+		}]
 },{
 		header: "Commissions",
 		Class: "Menu5",
