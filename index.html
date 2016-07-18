@@ -6,12 +6,12 @@
 	<script src="JS/jquery.min.js" type="text/javascript"></script>
 	<link rel="icon" type="image/jpg" href="Images/Logo.png" size="32x32">
 	<script src="JS/script.js" type="text/javascript"></script>
-	<link rel="stylesheet" href="CSS/style.css"/>
 	<link rel="stylesheet" href="CSS/Menu.css"/>
 	<link rel="stylesheet" href="CSS/Footer.css"/>
+	<link rel="stylesheet" href="CSS/style.css"/>
 </head>
 <body ng-controller="Controller as con">
-<div ng-include="'HTML/Header.html'"></div>
+<div ng-include="'HTML/Header.html'" id="MenuBar"></div>
 <div class="galCont">
 	<img class="Gallery" src="Images/HomeImage.jpg"/>
 	<div class="content">
@@ -33,6 +33,6 @@
 		</div>
 	</div>
 </div>
-<div ng-include="'HTML/footer.html'"></div>
+<div ng-include="'HTML/footer.html'" id="FooterBar"></div>
 </body>
 </html>

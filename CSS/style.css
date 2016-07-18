@@ -179,4 +179,12 @@ p, a, h2{
 #Grey{
 	background: #ffdb4d;
 }
-
+@media only screen and (min-width: 1200px){
+	
+}
+@media only screen and (min-width: 800px){
+	
+}
+@media only screen and (min-width: 320px){
+	
+}
