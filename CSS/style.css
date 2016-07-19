@@ -197,8 +197,15 @@ p, a, h2{
     position: relative;
     float: left;
     text-align: center;
-    color: #003300;
+    color: black;
 	border-bottom: 2px solid #004d00;
+}
+#content_store .m_content_logo{
+	position: absolute;
+    top: 0; left: 25px; bottom: 0px;
+    margin: auto;
+    width: 75px;
+    height: 75px;
 }
 #content_store .title{  
 	position: absolute;
@@ -206,9 +213,9 @@ p, a, h2{
     height: 25px;
     top: 0;
     bottom: 15px;
-    left: 25px;
+    left: 125px;
 	font-size: 30px;
-	width: 50%;
+	width: 75px;
 }
 #content_store .onward{
 	position: static;
