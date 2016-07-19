@@ -192,7 +192,7 @@ p, a, h2{
 	width: 47%;
     margin: auto auto 25px 1.5%;
     background: #99ff99;
-    height: 150px;
+	height: 150px;
     border-radius: 4px;
     position: relative;
     float: left;
@@ -202,24 +202,17 @@ p, a, h2{
 }
 #content_store .m_content_logo{
 	position: absolute;
-    top: 0; left: 25px; bottom: 0px;
+    top: 0; left: 0px; bottom: 0px;
     margin: auto;
-    width: 75px;
-    height: 75px;
-}
-#content_store .title{  
-	position: absolute;
-    margin: auto;
-    height: 25px;
-    top: 0;
-    bottom: 15px;
-    left: 125px;
-	font-size: 30px;
-	width: 75px;
+    height: auto;
+	border-radius: 4px;
+	width: 100%;
+	z-index:1;
 }
 #content_store .onward{
-	position: static;
+	position: relative;
     float: right;
-    margin: 44px 44px 44px 0;
+    margin: 64px 44px 44px 0;
 	border: 1px solid #004d00;
+	z-index: 2;
 }
