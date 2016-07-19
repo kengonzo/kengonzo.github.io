@@ -199,7 +199,7 @@ var arrayFooter = [{
 	}]
 },{
 	header: "Follow",
-	icon: "Images/SocialMedia.png",
+	icon: "Images/Instagram.png",
 	slides: [{
 		option: "Instagram"
 	},{
